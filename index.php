@@ -41,13 +41,6 @@
 
 ?>
 
-<?php {
-     if ($parking = true) echo 'SI';
-    else {
-        echo "NO";
-    }
-}
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -82,7 +75,10 @@
   
     echo "<td>" . $hotel["description"] . "</td>";
 
-    echo "<td>" . $hotel["parking"] . "</td>";
+    echo "<td>" ;
+     if ($hotel["parking"] == true) echo 'SI'; 
+     else echo "NO";
+      "</td>";
   
     echo "<td>" . $hotel["vote"] . '/5' ."</td>";
   

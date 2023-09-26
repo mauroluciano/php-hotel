@@ -41,3 +41,28 @@
     ];
 
 ?>
+
+<?php
+$hotels = $_GET["name"];
+$hotels = $_GET["description"];
+$hotels = $_GET["parking"];
+$hotels = $_GET["vote"];
+$hotels = $_GET["distance_to_center"];
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP hotel</title>
+</head>
+<body>
+    <section>
+        <?php var_dump($hotels.name); ?>
+    
+</section>
+</body>
+</html>

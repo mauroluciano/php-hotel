@@ -41,6 +41,13 @@
 
 ?>
 
+<?php {
+     if ($parking = true) echo 'SI';
+    else {
+        echo "NO";
+    }
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">

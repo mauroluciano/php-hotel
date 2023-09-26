@@ -61,7 +61,7 @@ $hotels = $_GET["distance_to_center"];
 </head>
 <body>
     <section>
-        <?php var_dump($hotels.name); ?>
+        <?php var_dump($name); ?>
     
 </section>
 </body>
